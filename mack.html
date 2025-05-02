@@ -18,19 +18,31 @@
 
     <body>
         <div class="uk-inline uk-box-shadow-medium uk-background-muted uk-width-1-1 ">
-            <div class="">
-                <div >
-                    <nav class="uk-navbar-container uk-navbar-transparent">
-                        <div class="uk-container" uk-navbar>
-                            <div class="uk-navbar-item uk-navbar-left uk-logo uk-link-reset">
-                                <a href="/pd/">Brian French</a>
-                            </div>
-                            <div class="uk-navbar-item uk-navbar-right">
-                                <a href="https://www.linkedin.com/in/brianfrenchcreative/" class="uk-button pulse warm uk-border-pill" target="_blank">LinkedIn</a>
-                            </div>
+            <div>
+                <nav class="uk-navbar-container uk-navbar-default uk-box-shadow-small" uk-dropnav="align:center">
+                    <div class="uk-container" uk-navbar>
+                        <div class="uk-navbar-item uk-navbar-left uk-logo uk-link-reset">
+                            <a href="/pd/">Brian French</a>
                         </div>
-                    </nav>
-                </div>
+
+                        <div class="uk-navbar-item uk-navbar-right">
+                            <ul class="uk-subnav uk-flex-center">
+                                <li>
+                                    <a href>My Work<span uk-drop-parent-icon></span></a>
+                                    <div class="uk-dropdown">
+                                        <ul class="uk-nav uk-dropdown-nav">
+                                            <li><a href="mack.html">Mack Trucks Survey</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="uk-hidden">
+                                    <a href="about.html">About Me</a>
+                                </li>
+                                <li><a href="https://www.linkedin.com/in/brianfrenchcreative/" class="" target="_blank">LinkedIn</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
             </div>
 
             <div class="uk-background-secondary">

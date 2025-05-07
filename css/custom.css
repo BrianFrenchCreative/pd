@@ -111,6 +111,10 @@ h3 a:hover {
   line-height: 1.5;
 }
 
+.uk-background-primary {
+  background-color: var(--primary);
+}
+
 ::selection {
     background: rgba(74, 80, 156, 1);
     color: #fff;

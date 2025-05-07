@@ -1,4 +1,4 @@
-/*! UIkit 3.23.0 | https://www.getuikit.com | (c) 2014 - 2025 YOOtheme | MIT License */
+/*! UIkit 3.23.6 | https://www.getuikit.com | (c) 2014 - 2025 YOOtheme | MIT License */
 /* ========================================================================
    Component: Base
  ========================================================================== */
@@ -32,7 +32,7 @@ body {
  */
 a,
 .uk-link {
-  color: var(--primary);
+  color: #1e87f0;
   text-decoration: none;
   cursor: pointer;
 }
@@ -477,7 +477,7 @@ a.uk-link-heading,
 a.uk-link-heading:hover,
 .uk-link-heading a:hover,
 .uk-link-toggle:hover .uk-link-heading {
-  color: var(--primary);
+  color: #1e87f0;
   text-decoration: none;
 }
 /* Reset
@@ -770,7 +770,7 @@ a.uk-link-reset,
   color: #333 !important;
 }
 .uk-list-primary > ::marker {
-  color: var(--primary) !important;
+  color: #1e87f0 !important;
 }
 .uk-list-secondary > ::marker {
   color: #222 !important;
@@ -1477,13 +1477,13 @@ button.uk-icon:not(:disabled) {
   outline: none;
   background-color: #fff;
   color: #666;
-  border-color: var(--primary);
+  border-color: #1e87f0;
 }
 /* Disabled */
 .uk-input:disabled,
 .uk-select:disabled,
 .uk-textarea:disabled {
-  background-color: var(--muted);
+  background-color: #f8f8f8;
   color: #999;
   border-color: #e5e5e5;
 }
@@ -1676,7 +1676,7 @@ select.uk-form-width-xsmall {
 .uk-checkbox:focus {
   background-color: rgba(0, 0, 0, 0);
   outline: none;
-  border-color: var(--primary);
+  border-color: #1e87f0;
 }
 /*
  * Checked
@@ -1684,7 +1684,7 @@ select.uk-form-width-xsmall {
 .uk-radio:checked,
 .uk-checkbox:checked,
 .uk-checkbox:indeterminate {
-  background-color: var(--primary);
+  background-color: #1e87f0;
   border-color: transparent;
 }
 /* Focus */
@@ -1710,7 +1710,7 @@ select.uk-form-width-xsmall {
  */
 .uk-radio:disabled,
 .uk-checkbox:disabled {
-  background-color: var(--muted);
+  background-color: #f8f8f8;
   border-color: #e5e5e5;
 }
 .uk-radio:disabled:checked {
@@ -1972,7 +1972,7 @@ select.uk-form-width-xsmall {
  * Primary
  */
 .uk-button-primary {
-  background-color: var(--primary);
+  background-color: #1e87f0;
   color: #fff;
   border: 1px solid transparent;
 }
@@ -1991,7 +1991,7 @@ select.uk-form-width-xsmall {
  * Secondary
  */
 .uk-button-secondary {
-  background-color: var(--secondary);
+  background-color: #222;
   color: #fff;
   border: 1px solid transparent;
 }
@@ -2167,7 +2167,7 @@ select.uk-form-width-xsmall {
   /* 3 */
   border: 0;
   /* 4 */
-  background-color: var(--muted);
+  background-color: #f8f8f8;
   /* 5 */
   margin-bottom: 20px;
   height: 15px;
@@ -2190,11 +2190,11 @@ select.uk-form-width-xsmall {
  *    https://bugzilla.mozilla.org/show_bug.cgi?id=662351
  */
 .uk-progress::-webkit-progress-value {
-  background-color: var(--primary);
+  background-color: #1e87f0;
   transition: width 0.6s ease;
 }
 .uk-progress::-moz-progress-bar {
-  background-color: var(--primary);
+  background-color: #1e87f0;
   /* 1 */
   transition: width 0.6s ease;
 }
@@ -2289,7 +2289,7 @@ select.uk-form-width-xsmall {
  */
 .uk-section-primary {
   --uk-inverse: light;
-  background: var(--primary);
+  background: #1e87f0;
 }
 /*
  * Secondary
@@ -2544,21 +2544,21 @@ select.uk-form-width-xsmall {
  */
 .uk-tile-muted {
   --uk-inverse: dark;
-  background-color: var(--muted);
+  background-color: #f8f8f8;
 }
 /*
  * Primary
  */
 .uk-tile-primary {
   --uk-inverse: light;
-  background-color: var(--primary);
+  background-color: #1e87f0;
 }
 /*
  * Secondary
  */
 .uk-tile-secondary {
   --uk-inverse: light;
-  background-color: var(--secondary);
+  background-color: #222;
 }
 /* ========================================================================
    Component: Card
@@ -2632,7 +2632,7 @@ select.uk-form-width-xsmall {
   height: 22px;
   padding: 0 10px;
   /* 3 */
-  background: var(--primary);
+  background: #1e87f0;
   color: #fff;
   font-size: 0.875rem;
   /* 4 */
@@ -2685,7 +2685,7 @@ select.uk-form-width-xsmall {
  */
 .uk-card-primary {
   --uk-inverse: light;
-  background-color: var(--primary);
+  background-color: #1e87f0;
   color: #fff;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
 }
@@ -2693,7 +2693,7 @@ select.uk-form-width-xsmall {
   color: #fff;
 }
 .uk-card-primary.uk-card-hover:hover {
-  background-color: var(--primary);
+  background-color: #1e87f0;
   box-shadow: 0 14px 25px rgba(0, 0, 0, 0.16);
 }
 /*
@@ -2701,7 +2701,7 @@ select.uk-form-width-xsmall {
  */
 .uk-card-secondary {
   --uk-inverse: light;
-  background-color: var(--secondary);
+  background-color: #222;
   color: #fff;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
 }
@@ -2709,7 +2709,7 @@ select.uk-form-width-xsmall {
   color: #fff;
 }
 .uk-card-secondary.uk-card-hover:hover {
-  background-color: var(--secondary);
+  background-color: #222;
   box-shadow: 0 14px 25px rgba(0, 0, 0, 0.16);
 }
 /* Size modifier
@@ -2967,7 +2967,7 @@ select.uk-form-width-xsmall {
  */
 .uk-alert-primary {
   background: #d8eafc;
-  color: var(--primary);
+  color: #1e87f0;
 }
 /*
  * Success
@@ -3043,7 +3043,7 @@ select.uk-form-width-xsmall {
   border-radius: 500px;
   vertical-align: middle;
   /* 1 */
-  background: var(--primary);
+  background: #1e87f0;
   color: #fff !important;
   font-size: 11px;
   /* 2 */
@@ -3064,7 +3064,7 @@ select.uk-form-width-xsmall {
 .uk-label {
   display: inline-block;
   padding: 0 10px;
-  background: var(--primary);
+  background: #1e87f0;
   line-height: 1.5;
   font-size: 0.875rem;
   color: #fff;
@@ -3238,7 +3238,7 @@ select.uk-form-width-xsmall {
  ========================================================================== */
 .uk-comment-primary {
   padding: 30px;
-  background-color: var(--muted);
+  background-color: #f8f8f8;
 }
 /* ========================================================================
    Component: Search
@@ -3371,7 +3371,7 @@ select.uk-form-width-xsmall {
 /* Focus */
 .uk-search-default .uk-search-input:focus {
   background-color: rgba(0, 0, 0, 0);
-  border-color: var(--primary);
+  border-color: #1e87f0;
 }
 /*
  * Icon
@@ -3404,7 +3404,7 @@ select.uk-form-width-xsmall {
 /* Focus */
 .uk-search-navbar .uk-search-input:focus {
   background-color: #fff;
-  border-color: var(--primary);
+  border-color: #1e87f0;
 }
 /*
  * Icon
@@ -3438,7 +3438,7 @@ select.uk-form-width-xsmall {
 /* Focus */
 .uk-search-medium .uk-search-input:focus {
   background-color: rgba(0, 0, 0, 0);
-  border-color: var(--primary);
+  border-color: #1e87f0;
 }
 /*
  * Icon
@@ -3472,7 +3472,7 @@ select.uk-form-width-xsmall {
 /* Focus */
 .uk-search-large .uk-search-input:focus {
   background-color: rgba(0, 0, 0, 0);
-  border-color: var(--primary);
+  border-color: #1e87f0;
 }
 /*
  * Icon
@@ -4427,7 +4427,7 @@ select.uk-form-width-xsmall {
  * Primary
  */
 .uk-notification-message-primary {
-  color: var(--primary);
+  color: #1e87f0;
 }
 /*
  * Success
@@ -5294,12 +5294,12 @@ ul.uk-nav-sub {
 /* Hover */
 .uk-nav-secondary > li > a:hover {
   color: #333;
-  background-color: var(--muted);
+  background-color: #f8f8f8;
 }
 /* Active */
 .uk-nav-secondary > li.uk-active > a {
   color: #333;
-  background-color: var(--muted);
+  background-color: #f8f8f8;
 }
 /*
  * Subtitle
@@ -5913,17 +5913,17 @@ ul.uk-nav-sub {
 }
 /* Hover */
 .uk-subnav-pill > * > a:hover {
-  background-color: var(--muted);
+  background-color: #f8f8f8;
   color: #666;
 }
 /* OnClick */
 .uk-subnav-pill > * > a:active {
-  background-color: var(--muted);
+  background-color: #f8f8f8;
   color: #666;
 }
 /* Active */
 .uk-subnav-pill > .uk-active > a {
-  background-color: var(--primary);
+  background-color: #1e87f0;
   color: #fff;
 }
 /* Disabled
@@ -6122,7 +6122,7 @@ ul.uk-nav-sub {
 /* Active */
 .uk-tab > .uk-active > a {
   color: #333;
-  border-color: var(--primary);
+  border-color: #1e87f0;
 }
 /* Disabled */
 .uk-tab > .uk-disabled > a {
@@ -7642,7 +7642,7 @@ ul.uk-nav-sub {
   color: #333 !important;
 }
 .uk-text-primary {
-  color: var(--primary) !important;
+  color: #1e87f0 !important;
 }
 .uk-text-secondary {
   color: #222 !important;
@@ -7672,8 +7672,8 @@ ul.uk-nav-sub {
   /* 3 */
   display: inline-block;
   /* 4 */
-  background-color: var(--primary);
-  background-image: linear-gradient(90deg, var(--primary) 0%, #411ef0 100%);
+  background-color: #1e87f0;
+  background-image: linear-gradient(90deg, #1e87f0 0%, #411ef0 100%);
 }
 /* Alignment modifiers
  ========================================================================== */
@@ -7987,13 +7987,13 @@ iframe[data-uk-cover] {
   background-color: #fff;
 }
 .uk-background-muted {
-  background-color: var(--muted);
+  background-color: #f8f8f8;
 }
 .uk-background-primary {
-  background-color: var(--primary);
+  background-color: #1e87f0;
 }
 .uk-background-secondary {
-  background-color: var(--secondary);
+  background-color: #222;
 }
 /* Size
  ========================================================================== */
@@ -9869,7 +9869,8 @@ iframe[data-uk-cover] {
  *    Note: `clip-path` doesn't work with `tabindex` on touch devices.
  */
 .uk-hidden-visually:not(:focus):not(:active):not(:focus-within),
-.uk-visible-toggle:not(:hover):not(:focus) .uk-hidden-hover:not(:focus-visible):not(:has(:focus-visible)) {
+.uk-visible-toggle:not(:hover):not(:focus) .uk-hidden-hover:not(:focus-visible):not(:has(:focus-visible)),
+.uk-visible-toggle:not(:hover):not(:focus) .uk-hidden-hover:not(:focus-within) {
   /* 1 */
   position: absolute !important;
   /* 2 */
